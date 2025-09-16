@@ -6,7 +6,7 @@
         {
           "path": "./GitHub-DEV-main/CSV/en/countries.csv",
           "file_format": "csv",
-          "tag": "countries.csv",
+          "tag": "countries2.csv",
           "columnDescription": {
             "KEY": 0,
             "en": 1
@@ -17,7 +17,7 @@
         {
           "path": "./GitHub-DEV-main/CSV/en/payments.csv",
           "file_format": "csv",
-          "tag": "payments.csv",
+          "tag": "payments2.csv",
           "columnDescription": {
             "KEY": 0,
             "en": 1
@@ -32,7 +32,7 @@
         {
           "path": "./GitHub-DEV-main/CSV/en/<language>.csv",
           "file_format": "csv",
-          "tag": "countries.csv",
+          "tag": "countries2.csv",
           "excludeHeaderRow": true,
           "excludeBaseLang": true,
           "columnDescription": {
@@ -46,7 +46,7 @@
         {
           "path": "./GitHub-DEV-main/CSV/en/<language>.csv",
           "file_format": "csv",
-          "tag": "payments.csv",
+          "tag": "payments2.csv",
           "excludeHeaderRow": true,
           "excludeBaseLang": true,
           "columnDescription": {
