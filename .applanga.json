@@ -1,0 +1,63 @@
+{
+  "app": {
+    "base_language": "en",
+    "push": {
+      "source": [
+        {
+          "path": "./GitHub-DEV-main/CSV/en/countries.csv",
+          "file_format": "csv",
+          "tag": "countries.csv",
+          "columnDescription": {
+            "KEY": 0,
+            "en": 1
+          },
+          "excludeHeaderRow": true,
+          "language": "en"
+        },
+        {
+          "path": "./GitHub-DEV-main/CSV/en/payments.csv",
+          "file_format": "csv",
+          "tag": "payments.csv",
+          "columnDescription": {
+            "KEY": 0,
+            "en": 1
+          },
+          "excludeHeaderRow": true,
+          "language": "en"
+        }
+      ]
+    },
+    "pull": {
+      "target": [
+        {
+          "path": "./GitHub-DEV-main/CSV/en/<language>.csv",
+          "file_format": "csv",
+          "tag": "countries.csv",
+          "excludeHeaderRow": true,
+          "excludeBaseLang": true,
+          "columnDescription": {
+            "KEY": 0,
+            "<language>": 1
+          },
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./GitHub-DEV-main/CSV/en/<language>.csv",
+          "file_format": "csv",
+          "tag": "payments.csv",
+          "excludeHeaderRow": true,
+          "excludeBaseLang": true,
+          "columnDescription": {
+            "KEY": 0,
+            "<language>": 1
+          },
+          "exclude_languages": [
+            "en"
+          ]
+        }
+      ]
+    }
+  }
+}
